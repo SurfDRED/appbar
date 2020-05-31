@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spinner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="false"
+    android:background="@color/colorBackGround"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".SpinnerActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        style="@style/Toolbar"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/user"
+        app:subtitle="@string/SubTitleSpinner"
+        app:subtitleTextAppearance="@style/Toolbar.SubTitle"
+        app:title="@string/Title"
+        app:titleTextAppearance="@style/Toolbar.TitleText" />
+    <Spinner
+        android:id="@+id/countriesSpinner"
+        style="@style/StySpine" />
+    <Spinner
+        android:id="@+id/citiesSpinner"
+        style="@style/StySpine"
+        android:spinnerMode="dialog"/>
+    <Spinner
+        android:id="@+id/houseNumberSpinner"
+        style="@style/StySpine" />
+
+    <Button
+        android:id="@+id/showAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/btnAdr" />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.appbar.MainActivity">
+    <!-- Меню приложения -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/mnSettings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_first"
+        android:orderInCategory="100"
+        android:title="@string/mnFirst"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_splash"
+        android:orderInCategory="100"
+        android:title="@string/mnSplash"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_universal"
+        android:orderInCategory="100"
+        android:title="@string/mnUniversal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_transition"
+        android:orderInCategory="100"
+        android:title="@string/mnTransition"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_monitoring"
+        android:orderInCategory="100"
+        android:title="@string/mnMonitoring"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_checkbox"
+        android:orderInCategory="100"
+        android:title="@string/mnCheckbox"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_spinner"
+        android:orderInCategory="100"
+        android:title="@string/mnSpinner"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_calendar"
+        android:orderInCategory="100"
+        android:title="@string/mnCalendar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_notes"
+        android:orderInCategory="100"
+        android:title="@string/mnNotes"
+        app:showAsAction="never" />
+</menu>
